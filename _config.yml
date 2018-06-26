@@ -1,0 +1,38 @@
+title: blog.yknk.jp
+author: yknk
+description: test
+
+twitter_username: yknkjp
+github_username: yknk
+rss: RSS
+
+lang: ja
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
+url: https://blog.yknk.jp
+
+header_pages:
+  - about.md
+
+minima:
+  date_format: "%Y/%m/%d"
+
+sass:
+  style: expanded
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - netlify.toml
+  - README.md
