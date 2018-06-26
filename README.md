@@ -1,7 +1,5 @@
 # [blog.yknk.jp](https://blog.yknk.jp/)
 
-test
-
 ## リポジトリに含まれているコードのライセンス
 
 ### [minima](https://github.com/jekyll/minima)
