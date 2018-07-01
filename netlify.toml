@@ -17,6 +17,12 @@ to = "https://blog.yknk.jp/:splat"
 status = 301
 force = true
 
+[[redirects]]
+from = "https://blog-yknk-jp.netlify.com/*"
+to = "https://blog.yknk.jp/:splat"
+status = 301
+force = true
+
 [[headers]]
 for = "/*"
 
