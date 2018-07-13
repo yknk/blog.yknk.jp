@@ -2,6 +2,8 @@
   $(function() {
     $('a[href^="https://"], a[href^="http://"]').not('[href^="https://' + location.hostname + '"], [href^="http://' + location.hostname + '"]').not('[target]').attr('target', '_blank');
 
+    $('a[href^="/images/"]').not('[target]').attr('target', '_blank');
+
     $('table').wrap('<div class="table-wrap"></div>');
   });
 
